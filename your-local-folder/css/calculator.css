@@ -1,0 +1,34 @@
+/* Calculate Panel Heading */
+#calcPanelHeading
+{
+ margin-top: -100px;
+}
+
+/* Calculator Container */
+#calculatorContainer
+{
+margin-bottom:50px;
+}
+
+/* Calculator Collapse Panel Close Button*/
+#btnCalcCollapsePanel
+{
+margin-top:30px;
+}
+
+/*  Price Labels Block - Label - Digit - Currency */
+#priceLabelsDiv
+{
+font-style:italic;
+}
+
+/* Site Function CheckBoxes Group */
+#siteFuncCBGroup
+{
+
+}
+
+#siteDesignBtnGroup  .btn-group .button
+{
+height:50px;
+}
