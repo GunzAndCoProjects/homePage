@@ -1,0 +1,151 @@
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+    
+#myCarousel {
+    margin-top: 70px;
+}
+
+
+
+#myCarousel .item  { height: 300px; }
+	
+#slide1 {
+	background: url('../img/carousel_slider/slider_visitCard_large.png') top center no-repeat;
+}
+	
+#slide2 {
+	background: url('../img/carousel_slider/slider_corporate_large.png') top center no-repeat;
+}
+	
+#slide3 {
+	background: url('../img/carousel_slider/slider_internetShop_large.png') top center no-repeat;
+}
+
+
+
+/* Tablet */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .carousel-caption {
+        font-size: 24px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 32px;
+    }
+
+    #myCarousel .item { height: 300px; }
+
+    #slide1 {
+        height: 100%;
+        background: url('../img/carousel_slider/slider_visitCard_medium.png') top center no-repeat;
+        background-size: cover;
+    }
+
+    #slide2 {
+        height: 100%;
+        background: url('../img/carousel_slider/slider_corporate_medium.png') top center no-repeat;
+        background-size: cover;
+    }
+
+    #slide3 {
+        height: 100%;
+        background: url('../img/carousel_slider/slider_internetShop_medium.png') top center no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	#myCarousel .item { height: 210px; }
+	
+	#slide1 {
+        height: 100%;
+		background: url('../img/carousel_slider/slider_visitCard_small.png') top center no-repeat;
+        background-size: cover;
+	}
+	
+	#slide2 {
+        height: 100%;
+		background: url('../img/carousel_slider/slider_corporate_small.png') top center no-repeat;
+        background-size: cover;
+	}
+	
+	#slide3 {
+        height: 100%;
+		background: url('../img/carousel_slider/slider_internetShop_small.png') top center no-repeat;
+        background-size: cover;
+	}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+ /* Netbook */ 
+@media (max-width: 1199px) and (min-width: 992px) {
+
+	#myCarousel .item { height: 400px; }
+	
+	#slide1 {
+		background: url('../img/carousel_slider/slider_visitCard_large.png') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../img/carousel_slider/slider_corporate_large.png') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../img/carousel_slider/slider_internetShop_large.png') top center no-repeat;
+	}
+
+}
+
+/* --------------------------------------
+   Glyphicon Size
+   -------------------------------------- */
+
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+
+/* --------------------------------------
+   features - Services
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+
+#Allrightsreserved
+{
+font-size: 10px;
+}
+
+
+
+/* ======================================= */
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
